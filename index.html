@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shagun - Web Developer</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Shagun's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Namaste(); </div>
+                My name is <span class="purple">Shagun</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="image.png" alt="">
+            </div>
+        </section>
+        
+
+        <div class="content">
+            <section id="about" class="about">
+                <h2>About Me</h2>
+                
+                <p>
+                    Hello! I'm  a passionate front-end developer with a strong foundation in creating dynamic and visually appealing web applications. With a keen eye for design and a deep understanding of user experience, I strive to build websites that are not only functional but also aesthetically pleasing.
+                    I have extensive experience with modern front-end frameworks such as React and tailwind CSS, and I'm constantly learning and adapting to new technologies to stay at the forefront of the industry.
+                </p>
+                
+            </section> 
+
+
+        
+        
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill">HTML & CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">Java</div>
+                <div class="skill">Basic Python</div>
+                <div class="skill">React Js</div>
+                <div class="skill">Tailwind CSS</div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project" data-url="https://github.com/sshagunn88/Weather-App">
+                    <h3>Weather App</h3>
+                    <img src="Weather.png" alt="weather Screenshot">
+                    <p>This is a web application based on HTML, CSS and JavaScript. It allows users to enter a location and retrieve the current weather conditions of that location. This app displays details such as temperature, weather description and an icon representing current weather.</p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+                <div class="project" data-url="https://github.com/sshagunn88/To-do-List">
+
+                    <h3>To-Do List</h3>
+                    <img src="Todo.png" alt="To-Do Screenshot">
+                    <p>In this To-do list app we can write the tasks which we want to perform. This app consist of HTML, CSS and JavaScript. We can not only put the task in the list but also delete them after the completion of each task.</p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+                <div class="project" data-url="https://github.com/sshagunn88/Password-generator">
+                    <h3>Password Generator</h3>
+                    <img src="Password.png" alt="password Screenshot">
+                    <p>This is a password generator application using HTML, CSS and Java Script This application generate a secure and strong password based on user preferences, such as password length and character type. It aims to provide a convenient tool for users to generate random password that are difficult to guess.</p>
+                    <br>
+                    <button>View Project</button>
+                </div>
+            </div>
+        </section>
+        <section class="resume">
+            <h2>Resume</h2>
+            <a href="SHAGUN RESUME.docx" download>Download Resume</a>
+        </section>
+        </div>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-end Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
